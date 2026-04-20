@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> : الدورات</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">جاري التحميل...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" >
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <p class="m-0 fw-bold" style="font-size: 25px;">TEAM <span style="color: #fb873f;">85</span></p>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0" style="font-weight: bold;" >
+                <a href="index.html" class="nav-item nav-link active">الصفحة الرئيسية</a>
+                <a href="about.html" class="nav-item nav-link">عن الموقع</a>
+                <a href="courses.html" class="nav-item nav-link">الكورسات</a>
+                <a href="instructor.html" class="nav-item nav-link">المحاضرين</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">المحتوي</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="team.html" class="dropdown-item">فريق العمل </a>
+                        <a href="testimonial.html" class="dropdown-item">اراء الطلاب</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">تواصل معنا</a>
+                <a href="login.html" class="nav-item nav-link" id="userLoginLink"><i class="fa fa-user"></i></a>
+                <a href="#" class="nav-item nav-link">
+                    <div id="google_translate_element"></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">الكورسات</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="index.html">الصفحه الرئسيه</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">
+الكورسات</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Categories Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center px-3">فئات</h6>
+                <h1 class="mb-5" style="color: #fb873f;">مواضيع شائعة للاستكشاف</h1>
+            </div>
+            <div class="row g-2 m-2">
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat1.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">مايكروسوفت إكسل</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat2.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center"> AWS</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat3.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">بايثون</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat4.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">جافا</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat5.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">تصميم مواقع الويب</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat6.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">تطوير مواقع الويب</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat7.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">MySQL</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat8.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">تصميم واجهة المستخدم</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Categories End -->
+
+
+
+    <!-- Courses Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center px-3">الدورات التدريبية الشائعة</h6>
+                <h1 class="mb-5" style="color: #fb873f;">استكشف الدورات التدريبية المجانية الجديدة والرائجة عبر الإنترنت</h1>
+            </div>
+            <div class="row g-4 py-2">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-1.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">مجاني</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1"><a href="course-details.html?slug=html-beginners" class="text-dark">دورة HTML للمبتدئين</a> </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                4.55</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>5.8L+
+                                للمتعلمين
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>مبتدئ</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>ساعتان</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">جنيه 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="course-details.html?slug=html-beginners">سجل
+                                    الان </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-2.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
+                                class="px-2 py-1 fw-bold text-uppercase">مدفوع</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1"> <a href="course-details.html?slug=css-beginners" class="text-dark">تطوير الواجهة الأمامية - CSS</a> </h5>
+
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                4.55</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>5.2L+
+                               للمتعلمين
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>مبتدئ</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>4.0
+                                ساعات</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">جنيه 199</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="course-details.html?slug=css-beginners">سجل
+                                    الان </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-3.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">مجاني</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">مقدمة إلى جافا سكريبت
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                4.46</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>76L+
+                                للمتعلمين
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>مبتدئ</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>ساعتان ونصف</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">جنيه 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="course-details.html?slug=javascript-beginners">سجل
+                                    الان </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-4.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
+                                class="px-2 py-1 fw-bold text-uppercase">مدفوع</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">برمجة بايثون
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                3.54</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>3.3L+
+                                للمتعلمين
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>مبتدئ</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.0
+                                ساعات</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">جنيه 299</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="course-details.html?slug=python-beginners">سجل
+                                    الان </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-5.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">مجاني</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">لغة SQL لعلوم البيانات
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-star text-warning me-2"></i>
+                                4.54</small>
+                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-user-graduate me-2"></i>1.3L+
+                                للمتعلمين
+                            </small>
+                            <small class="flex-fill text-center py-1 px-1"><i
+                                    class="fa fa-user me-2"></i>متوسط</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>5.0
+                                ساعات</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">جنيه 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="course-details.html?slug=sql-beginners">سجل
+                                    الان </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-6.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">مجاني</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">إحصاءات لعلوم البيانات
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                3.55</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>3.5L+
+                                للمتعلمين
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>مبتدئ</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>4.5
+                                ساعات</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">جنيه 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="course-details.html?slug=statistics-beginners">سجل الان</a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-7.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">مجاني</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">خدمات أمازون السحابية للمبتدئين
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                4.53</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>1L+
+                                للمتعلمين
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>مبتدئ</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.0
+                                ساعات</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">جنيه 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="course-details.html?slug=aws-beginners">سجل الان </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-8.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
+                                class="px-2 py-1 fw-bold text-uppercase">مدفوع</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">أساسيات مايكروسوفت ازور
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-star text-warning me-2"></i>
+                                4.64</small>
+                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-user-graduate me-2"></i>4.4L+
+                                للمتعلمين
+                            </small>
+                            <small class="flex-fill text-center py-1 px-1"><i
+                                    class="fa fa-user me-2"></i>متوسط</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.5
+                                ساعات</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">جنيه 149</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="course-details.html?slug=azure-beginners">
+                                    سجل الان </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-9.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">مجاني</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">مقدمة إلى برنامج مايكروسوفت إكسل</h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                4.6</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>4.2L+
+                                للمتعلمين
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>مبتدئ</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.5
+                                ساعات</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">جنيه 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="course-details.html?slug=excel-beginners">سجل الان </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-10.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
+                                class="px-2 py-1 fw-bold text-uppercase">مدفوع</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">إحصاءات لعلوم البيانات
+                               
+                                
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-star text-warning me-2"></i>
+                                4.55</small>
+                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-user-graduate me-2"></i>5.3L+
+                               للمتعلمين
+                            </small>
+                            <small class="flex-fill text-center py-1 px-1"><i
+                                    class="fa fa-user me-2"></i>متوسط</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>
+                                ساعاتين ونصف</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">جنيه 299</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="course-details.html?slug=data-science-beginners">سجل الان</a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-11.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">مجاني</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">برمجة جافا
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                4.45</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>5L+
+                                للمتعلمين
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>مبتدئ</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>ساعاتين</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">جنيه 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="course-details.html?slug=java-beginners">سجل الان</a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-12.png" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">مجاني</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">تعلم لغةC للمبتدئين
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                4.5</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>1.1L+
+                                للمتعلمين
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>مبتدئ</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>ساعه ونصف</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">جنيه 0</small>
+<small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="course-details.html?slug=c-programming">سجل
+                                    الان </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Courses End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">رابط سريع</h4>
+                    <p><a class="text-light" href="about.html">نبذة عنا</a></p>
+                    <p><a class="text-light" href="contact.html">اتصل بنا</a></p>
+                    <p><a class="text-light" href="">سياسه الخصوصيه</a></p>
+                    <p><a class="text-light" href="">الأحكام والشروط</a></p>
+                    <p><a class="text-light" href="">الأسئلة الشائعة والمساعدة</a></p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">تواصل معنا</h4>
+                      <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> كفر الشيخ </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0100000879878</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>t@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">تابعنا عبر  الايميل</h4>
+                    <p>اشترك الآن وانضم إلى مجتمعنا المتنامي من المتعلمين الملتزمين بالتعلم مدى الحياة!</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">اشترك</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">تيم 85</a>,حقوق الطبع والنشر محفوظة
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
